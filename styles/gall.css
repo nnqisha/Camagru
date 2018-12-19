@@ -1,0 +1,190 @@
+html , body{
+    height: 100%;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding: 0;
+    margin: 0;
+    background: black;
+    width: 100%;
+    height: 15%;
+}
+
+#logoimg {
+    display: inline-block;
+    height: 100px;
+    width: 95px;
+    margin-top: -10px;
+  }
+  .logo
+  {
+    float:left;
+    font-family:Arial;
+    letter-spacing:-2px;
+    font-weight:1px;
+    font-size:22px;
+    color:white;
+  }
+  .logo1
+  {
+    margin-top:20px;
+    margin-left: 10px;
+  }
+
+.container{
+    border: none;
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+nav, footer{
+	width: 100%;
+	background: palevioletred;
+	padding: 40px 0;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.left, .right{
+    height: 15px;
+    display: inline-block;
+}
+
+.left {
+    margin-left:auto;
+    margin-right:auto;
+    width:980px;
+    height:80px;
+}
+
+.right {
+    float: right;
+}
+
+h4 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 4px solid #bbb;
+}
+
+a {
+    display:0;
+    padding: 8px;
+    background-color: palevioletred;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1 {
+  top: 35%;
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
+}
+p {
+	text-align: none;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,.2);
+  text-align: center;
+  
+}
+
+#pagination {
+	position:relative;
+}
+
+.display-none {
+	display:none;
+}
+
+#pageNav {
+	position:relative;
+	margin:0px 0;
+}
+
+#pageNav button {
+	color:#fff;
+	background:#333;
+	padding:8px 12px;
+	margin:5px 5px ;
+	border:0;
+	font-size:1em;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.active {
+	text-decoration:underline!important;
+}
+.img-container {
+	width:19%;
+	padding:1%;
+	float:left;
+	left:0;
+}
+
+.img {
+	padding:0;
+	padding-bottom:100%;
+	 overflow:hidden;
+}
+
+.img img {
+	width:100%;
+	height:auto;
+	 transform: translate(-10%,-8%) ;
+	-moz-transform: translate(-10%,-8%);
+	-ms-transform: translate(-10%,-8%);
+}
+footer {
+	font-size:.85em;
+	width:100%;
+    padding:20px 0;
+    text-align: center;
+}
